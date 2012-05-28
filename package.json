@@ -1,0 +1,20 @@
+{
+  "author": "Jeroen Janssen <jeroen.janssen@gmail.com> (https://github.com/japj/)",
+  "name": "exec",
+  "description": "exec will execute .bat/.cmd files if on windows",
+  "version": "0.0.0",
+  "homepage": "https://github.com/japj/node-exec",
+  "repository": {
+    "url": "git://github.com/japj/node-exec.git"
+  },
+  "main": "./lib/exec.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node ./test/test-exec-sm.js"
+  }
+}
